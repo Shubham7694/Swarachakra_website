@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+<title>Hindi Swarachakra</title>
+<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<!-- Add jQuery library -->
+	<script type="text/javascript" src="fb/lib/jquery-1.10.1.min.js"></script>
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="fb/source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="fb/source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="fb/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	<script type="text/javascript">
+	
+		$(document).ready(function() {
+			/*
+			 *  Media helper. Group items, disable animations, hide arrows, enable media and button helpers.
+			*/
+			$('.fancybox-media')
+				.attr('rel', 'media-gallery')
+				.fancybox({
+					openEffect : 'none',
+					closeEffect : 'none',
+					prevEffect : 'none',
+					nextEffect : 'none',
+
+					arrows : false,
+					helpers : {
+						media : {},
+						buttons : {}
+					}
+				});
+		});
+	</script>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-52478347-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<div class="container-fluid" id="main">
+<div class="row-fluid">
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+<div class="navbar-header" style="border-radius:0px;">
+            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="index.html" class="navbar-brand visible-xs">Swarachakra</a>
+        </div>
+
+
+<div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right" style="padding-right:5%;">
+               <li ><a href="index.html">Home</a></li>
+                <li><a href="swarachakra_faq.html">FAQ</a></li>
+                <li><a href="swarachakra_aboutus.html">About Us</a></li>
+                <li><a href="swarachakra_resources.html">Resources</a></li>  
+            </ul>
+            </div>
+</nav><!--end of navigation-->
+</div><!--end of navigation-->
+<!--logo and title for smallscreen-->
+<div class="row visible-xs" id="logo">
+			<br>
+			<br>
+			<br>
+			<div class="col-xs-offset-3 col-xs-6">
+			<a href="index.html" ><img src="img/hindi_swc.png" class="img-responsive " align="center" alt="logo"></a>
+			</div>
+</div>
+<div class="row-fluid visible-xs">
+				<div class="col-xs-offset-3" >	
+					<h2 style="color:white;font-size:30px;padding-top:10px;">हिंदी स्वरचक्र</h2>
+				</div>	<!--column ended-->
+</div>
+<div class="row visible-xs"> 				
+				<div class="col-xs-offset-2 col-xs-8" style="padding-top:18px;">
+							<a href="https://play.google.com/store/apps/details?id=iit.android.swarachakra" target="_blank"><img src="img/playstore.png" alt="Go to PlayStore" class="img-responsive pull-right"></a>
+					
+				</div>
+</div>
+<!--logo and header for large screeen-->
+<div class="row-fluid">
+
+	<div class="col-sm-3 hidden-xs" style="padding-top:3.1%;font-family:'EkMukta';" >
+			<br>
+			<a href="index.html"><img src="img/hindi_swc.png" class="img-responsive pull-right"  id="logo"></a>
+	</div>
+	<div class="col-sm-9 " style="padding-top:3.4%;font-family:'EkMukta';" id="bd">
+		<div class="row hidden-xs">
+			<br><br>
+				<div class="col-sm-4 " >	
+					<h2 style="color:white;font-size:3em;padding-top:4%;padding-right:8%;">हिंदी स्वरचक्र</h2>
+				</div>	<!--column ended-->
+				<div class="col-sm-8 " style="padding-top:2%;padding-right:8%;">
+							<a href="https://play.google.com/store/apps/details?id=iit.android.swarachakra" target="_blank"><img src="img/playstore.png" alt="Go to PlayStore" class="img-responsive pull-right"></a>
+						<br>
+				</div>
+			</div>
+			
+		<hr>
+<div class="row-fluid" style="padding-top:1%;id="about"">
+		<h3 id="about"><span class="label" style="background-color:#f3836b;font-family:'EkMukta';font-size:1.2em ">विवरण</span></h3>
+			<div style="color:white;font-weight:lighter;font-size:1.2em;" >
+			<div class="item" style="font-family:'EkMukta';">
+				<p class="details" align="justify" style="padding-bottom:2%;padding-top:2%;">"सारे जहाँ से अच्छा, हिन्दोस्ताँ हमारा । हम बुलबुलें हैं इसकी, यह गुलिसताँ हमारा ।।" - मुहम्मद इक़बाल . अगर आपके डिवाइस पूरी तरह से हिंदी में इस वाक्य को प्रदर्शित कर सकते हैं, तो आपके डिवाइस हिंदी और  स्वरचक्र भी अच्छी तरह से काम करना चाहिए | अगर कुछ भी नही दिखे, या कुछ शब्द ग़लत दिख रहे हो तो भी स्वरचकरा अच्छी तरह से काम नहीं करेगा | स्वरचक्र हिन्दी में पाठ निवेश के लिए एक टच स्क्रीन कुंजीपटल है | स्वरचक्र गुजराती, तेलुगु, कन्नड़,मलयालम, मराठी, ओड़िया, पंजाबी और बंगाली में भी उपलब्ध है | </P>
+				</div>
+				<div class="item">
+				स्वरचक्र देवनागरी की ध्वनि-संरचना पर आधारित एक तार्किक आदेशित डिजाइन का उपयोग करता है. स्वरचक्र व्यंजनो को देवनागिरी की तार्किक संरचना क अनुरूप प्रदर्शित करता है जो की एक ग्रिड के आकर मे दिखता है | ज़्यादातर पाठशालाओ मे भी बच्चो को इसी प्रकार हिन्दी पड़ाही जाती है |
+				<h3 style="padding-top:2%;padding-bottom:2%;"><span class="label" style="background-color:#f3836b;font-size:1.2em;">&nbsp;&nbsp;टंकण&nbsp;&nbsp;</span></h3>
+				<p align="justify"  style="padding-bottom:10px;padding-top:10px;">देवनागरी मे हमे अक्सर एक व्यंजन और मात्रा के संयोजन के रूप मे लिखना पड़ता है |जैसे देवनागरी मे हमे अक्सर एक व्यंजन और मात्रा के संयोजन के रूप मे लिखना पड़ता है | ध + ो = धो एक व्यंजन ( ध )  और एक मात्रा टाइप करने की जरूरत है |कुंजीपटल पे हम जब भी किसी व्यंजन को छूते है तो उस व्यंजन के मात्रओ के साथ दस प्रमुख संयोजन दिखाए पड़ते है (धा, धि, धी, धु, धू, धे, धै, धो...)| हमे बस सही मात्रा संयोजन को उंगली या स्टाइलस के द्वारा चुनना होता है |
+				संयोजक शब्द जैसे की  क्रि, स्थ, च्य लिखना ज़्यादातर लोगो को मुश्किल लगता है और स्वरचकरा इसी काम को बखूबी आसान बना देता है | उदाहरण के लिए पहले संयोजन के पहले भाग पर नल और चक्र ( स + ् ) से हलंत
+				 का चयन करें. ( स + ् + थ = स्थ आदि स + ् + त = स्त ) स्वरचक्रा तो उस व्यंजन के साथ शुरू करने वाले सभी संभव संयोजक शब्दो का एक पूर्वावलोकन दिखाता है. अगर कोई  मात्रा जोड़ने की जरूरत है, पहले की तरह नए चक्र ( स्था , स्थि , स्थी , स्थु , स्थू ...) से इसका चयन करें .
+				( र्थ ) , एक राष्ट्र चिह्न ( ट्र ) या एक नुक्ता ( ड़ , ख़ ) एक रफ़ार टाइप करने के लिए पहले उसके अनुरूप चिन्ह को बाए तरफ से चुने और फिर साधारण शब्दो के तरह टाइप करे |
+				पूरी स्वर ( अ , आ , इ , ई , उ , ऊ , ए , ऐ , ओ , औ ) नीचे दाईं तरफ एक अलग चक्र में दिखाई देते हैं. कम उपयोग किए जाने वाले मात्रा और स्वर ( ऑ , ृ , ऋ , ॄ , ॠ , ॆ , ॊ , ॅ , ॉ ) उसके बाद दिखाई देते है |  अंकों, प्रतीकों और शायद ही कभी इस्तेमाल किया वर्ण एक पारी पर दिखाई देते हैं | अँग्रेज़ी मे टाइप करने के लिए आस्थाई रूप से QWERTY कुंजीपटल को बदल सकते है |
+
+				</p>
+				</div>
+				<div class="item">
+				<h4 style="padding-top:2%;padding-bottom:2%"><span class="label" style="background-color:#f3836b;font-size:1.2em;">&nbsp;स्थापित करे&nbsp;</span></h4>
+				<p class="details">	1. सबसे पहले, ऊपर "स्थापित करें" बटन पर क्लिक करके  स्वरचक्र हिन्दी को स्थापित करें | <br>
+				2. इसके बाद आपको कुंजीपटल को "सक्षम" करना होगा | सक्षम करने के किए सेटिंग्स मे जाए, भाषा और इनपुट चुने , जिसके अंदर "कुंजीपटल और इनपुट" अनुभाग होगा | इसे क्लिक करे | फिर "स्वरचक्र हिन्दी " के आगे दिए हुए चेकबॉक्स को चुने या टिक करे |<br>
+				3. अंत में, डिफ़ॉल्ट कुंजीपटल के रूप में हिंदी स्वरचक्र ( स्वरचक्र हिन्दी) "कुंजीपटल और इनपुट विधि" खंड में "डिफ़ॉल्ट" विकल्प पर क्लिक करें और चयन करें. (क्षमा करें, लेकिन यह एंड्रॉयड ऐसे ही काम करता है)<br>
+				नोट:  स्वरचक्र एंड्रॉयड 4.0 के बाद (आईसीएस) के लिए बनाया गया है. वे यूनिकोड समर्थन की जरूरत नहीं है क्योंकि यह पुराने संस्करणों पर अभी काम नहीं करता है.
+				</P>
+				</div>
+				</div>	
+
+	</div>
+<!--carousel begins here-->
+<div class="row">
+<div class="col-sm-offset-1 col-sm-3"  id="crl" style="padding-bottom:2%;padding-top:2%;">
+<div  class="carousel slide"  data-ride="carousel" id="swc_cs" >
+<!--indcators-->
+  <ol class="carousel-indicators" >
+    <li data-target="#swc_cs" data-slide-to="0" class="active"></li>
+    <li data-target="#swc_cs" data-slide-to="1"></li>
+    <li data-target="#swc_cs" data-slide-to="2" ></li>  
+    <li data-target="#swc_cs" data-slide-to="3"></li>
+    <li data-target="#swc_cs" data-slide-to="4"></li>
+    <li data-target="#swc_cs" data-slide-to="5"></li>
+    <li data-target="#swc_cs" data-slide-to="6"></li>
+  </ol>
+<div class="carousel-inner" style="font-family:'EkMukta';">
+				<!--slide one-->
+			<div class="item active" id="slide1" style="padding-left:45px;">	
+			<p align="justify"><img src="img/install/install1.png">
+              <h3 style="color:white;">&nbsp;&nbsp;&nbsp;Click the settings icon</h3>
+			  </p>
+			</div> <!--end of item-->
+			
+			
+			<!--slide 2-->
+			<div class="item" id="slide2" style="padding-left:45px;">
+				<p align="justify">
+					<img src="img/install/install3.png">
+				</p>
+					<h3 align="justify" style="color:white;"> &nbsp;&nbsp;&nbsp;Click on Language and <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Input bar</h3>
+			</div> <!--end of item-->
+
+			<!--slide 3-->
+			<div class="item " id="slide3" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/install6.png">
+			</p> <h3 style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scroll & search for&nbsp;&nbsp;&nbsp;&nbsp; <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Swarachakra.<br>Check the box in front of it.</h3>
+			</div> <!--end of item-->
+
+
+			<!--slide 4--> 
+			<div class="item" id="slide4" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/install8.png">
+			</p>
+			<h3 style="color:white;">&nbsp;&nbsp;Choose OK in the popup <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dialog Box</h3>	
+			</div> <!--end of item-->
+
+			<!--slide 5-->
+			<div class="item " id="slide5" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/install10.png">
+			</p>		
+					<h3 style="color:white;">&nbsp;&nbsp;Click on Default option<br>&nbsp;&nbsp;&nbsp;&nbsp;select the Keyboard</h3>
+			</div> <!--end of item-->
+
+			<!--slide 6-->
+			<div class="item " id="slide6" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/install11.png">
+			</p>
+					<h3 style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scroll and Choose <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Swarachakra</h3>
+			</div> <!--end of item-->
+
+			<!--slide 7-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/install12.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp;You are ready to write <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;with Swarachakra.</h3>
+			</div> <!--end of item-->
+
+</div>
+			
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#swc_cs" data-slide="prev" >
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#swc_cs" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>		
+	</div><!--end of carousel inner-->
+</div><!--end of carousel slide-->
+
+
+<div class="col-sm-offset-1 col-sm-3"  id="crl" style="padding-bottom:2%;padding-top:2%;">
+<div  class="carousel slide"  data-ride="carousel" id="swc_cs1" >
+<!--indcators-->
+  <ol class="carousel-indicators" >
+    <li data-target="#swc_cs1" data-slide-to="0" class="active"></li>
+    <li data-target="#swc_cs1" data-slide-to="4"></li>
+    <li data-target="#swc_cs1" data-slide-to="8" ></li>  
+    <li data-target="#swc_cs1" data-slide-to="12"></li>
+    <li data-target="#swc_cs1" data-slide-to="16"></li>
+    <li data-target="#swc_cs1" data-slide-to="20"></li>
+    <li data-target="#swc_cs1" data-slide-to="24"></li>
+  </ol>
+<div class="carousel-inner" style="font-family:'EkMukta';">
+				<!--slide one-->
+			<div class="item active" id="slide1" style="padding-left:45px;">	
+			<p align="justify"><img src="img/install/1.1.png">
+              <h3 style="color:white;">&nbsp;&nbsp;&nbsp;" मस्त " शब्द टाइप करना सीखे<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;पहले म को टाइप करलें |</h3>
+			  </p>
+			</div> <!--end of item-->
+			
+			<div class="item " id="slide2" style="padding-left:45px;">	
+			<p align="justify"><img src="img/install/1.2.png">
+              <h3 style="color:white;"> फिर ‘स’दबाए रखें | स के स्वरचक्र <br>में ऊपर ‘ हलंत होता है | इसका<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; चयन करें</h3>
+			  </p>
+			</div> <!--end of item-->
+			<!--slide 2-->
+			<div class="item" id="slide2" style="padding-left:45px;">
+				<p align="justify">
+					<img src="img/install/1.3.png">
+				</p>
+					<h3 align="justify" style="color:white;"> आप ‘स' से सम्बंधित सभी संयुक्त<br> अक्षर देख सकते हैं | "स्त" चुने |</h3>
+			</div> <!--end of item-->
+
+			<!--slide 3-->
+			<div class="item " id="slide3" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/1.4.png">
+			</p> <h3 style="color:white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;आपका शब्द पूरा हुआ |</h3>
+			</div> <!--end of item-->
+
+
+			<!--slide 4--> 
+			<div class="item" id="slide4" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/2.1.png">
+			</p>
+			<h3 style="color:white;">&nbsp;&nbsp;" मुद्दा " शब्द टाइप करने के लिए  <br>&nbsp;&nbsp;&nbsp;&nbsp;'म' के चक्र में से 'मु' चुने|</h3>	
+			</div> <!--end of item-->
+
+			<!--slide 5-->
+			<div class="item " id="slide5" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/2.2.png">
+			</p>		
+					<h3 style="color:white;">अब द के चक्र से द के साथ हलंत <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;का चयन करते है </h3>
+			</div> <!--end of item-->
+
+			<!--slide 6-->
+			<div class="item " id="slide6" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/2.3.png">
+			</p>
+					<h3 style="color:white;">&nbsp;&nbsp;&nbsp;द्दा टाइप करने के लिए द्द के  <br>&nbsp;&nbsp;&nbsp;चक्र से द्दा का चयन करते हैं</h3>
+			</div> <!--end of item-->
+
+			<!--slide 7-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/2.4.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp;आपने मुद्दा शब्द लिख दिया |<br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 8-->
+			<div class="item " id="slide8" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/3.1.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp;" संपूर्ण " शब्द टाइप करना सीखे<br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 9-->
+			<div class="item " id="slide9" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/3.2.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp; पहले स टाइप किया  <br>&nbsp;&nbsp;&nbsp;फिर स को अनुस्वार दिया</h3>
+			</div> <!--end of item-->
+			
+			<!--slide 10-->
+			<div class="item " id="slide10" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/3.3.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; फिर प के चक्र से पू चुना<br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 11-->
+			<div class="item " id="slide11" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/3.4.png">
+			</p>
+				<h3 style="color:white;" >फिर रफार चिन्ह का बटन दबाते ही <br>सभी व्यंजनों में  रफार लग जाता है <br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 12-->
+			<div class="item " id="slide12" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/3.5.png">
+			</p>
+				<h3 style="color:white;" > ‘रफार के साथ ण’ टाइप  करे | </h3>
+			</div> <!--end of item-->
+			
+			<!--slide 13-->
+			<div class="item " id="slide13" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/3.6.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;संपूर्ण शब्द पूरा हुआ <br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 14-->
+			<div class="item " id="slide14" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/4.1.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp;क्रमश: शब्द टाइप करने के लिए<br>&nbsp;&nbsp;&nbsp;राष्ट्रचिंह का बटन दबाये</h3>
+			</div> <!--end of item-->
+			
+			<!--slide 15-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/4.2.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;‘क्र’ टाइप करें <br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 16-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/4.3.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;फिर म लिख लें <br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 17-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/4.4.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp;अ&nbsp;&nbsp;&nbsp;ंत में  ‘श’ टाइप कर लें <br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 18-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/5.1.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp;" ऋषि " शब्द टाइप करना सीखे <br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 19-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/5.2.png">
+			</p>
+				<h3 style="color:white;" >अवग्रह वाले स्वरचक्र से ‘ऋ’<br> का चयन करें <br></h3>
+			</div> <!--end of item-->
+			<!--slide 20-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/5.3.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;षि टाइप करें<br>और ऋषि शब्द पूरा हुआ</h3>
+			</div> <!--end of item-->
+			
+			<!--slide 21-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/6.1.png">
+			</p>
+				<h3 style="color:white;" >&nbsp;&nbsp;&nbsp;" कृष्णा " शब्द टाइप करना सीखे<br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 22-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/6.2.png">
+			</p>
+				<h3 style="color:white;" >‘कृ’ लिखने के लिए ‘क' टाइप करें<br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 23-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/6.3.png">
+			</p>
+				<h3 style="color:white;" >अवग्रह वाले स्वरचक्र से ऋ की मात्रा को दबाएँ <br></h3>
+			</div> <!--end of item-->
+			
+			<!--slide 24-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/6.4.png">
+			</p>
+				<h3 style="color:white;" >‘ष’ को हलंत के साथ चुनें  <br> ‘ष’ को हलंत के साथ चुनें </h3>
+			</div> <!--end of item-->
+			
+			<!--slide 25-->
+			<div class="item " id="slide7" style="padding-left:45px;">
+			<p align="center">
+				<img src="img/install/6.5.png">
+			</p>
+				<h3 style="color:white;" >कृष्णा शब्द पूरा हुआ <br></h3>
+			</div> <!--end of item-->
+			
+
+</div>
+			
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#swc_cs1" data-slide="prev" >
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#swc_cs1" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>		
+	</div><!--end of carousel inner-->
+</div><!--end of carousel slide-->
+</div>
+
+
+</div>
+<div class="row" >
+<div class="col-sm-offset-2 col-sm-2" style="padding-left:7px;padding-top:30px;" id="vidbtn1" >
+	<a class="fancybox-media" href="https://www.youtube.com/watch?v=Asjog07gYsM"><button class="btn btn-lg"  style="background-color:#f3836b;color:white;">
+		<span class="glyphicon glyphicon-facetime-video"></span> कैसे स्थापित करे
+	</button>
+	</a>
+</div>
+
+<div class="col-sm-offset-2 col-sm-2" style="padding-left:2px;padding-top:30px;" id="vidbtn2">
+	<a class="fancybox-media" href="#"><button class="btn btn-lg"  style="background-color:#f3836b;color:white;">
+		<span class="glyphicon glyphicon-facetime-video"></span> टाइप करना सीखे
+	</button>
+	</a>
+</div>
+</div>
+</div><!--end of col-->
+</div>
+
+<footer style="position:static;bottom:0;left:0;right:0;">
+<hr>
+		<div class="row-fluid hidden-xs">
+			<div class=" col-sm-4" style="padding-left:50px;color:white;font-family:'EkMukta';">
+			<p align="center">All rights reserved | IDC IIT-Bombay</p>
+			</div>
+			<div class="col-sm-offset-6 col-sm-2">
+			<div style="padding-bottom:10px;">
+				<a href="https://www.facebook.com/swarchakra" target="_blank"><img src="img/facebook.png"></a>
+				&nbsp;
+				<a href="https://en.wikipedia.org/wiki/Swarachakra" target="_blank"><img src="img/wikipedia.png"></a>
+				&nbsp;
+				<a href="https://www.youtube.com/user/swarachakra" target="_blank"><img src="img/youtube.png"></a>
+				</div>
+			</div>
+		</div>
+	<!--for small screen-->
+	<div class="row-fluid visible-xs" >
+			<div  class="col-sm-offset-3 col-sm-4" style="color:white;align:center;padding-top:10px;font-family:'EkMukta';">
+			<p>All rights reserved | IDC IIT-Bombay</p>
+			</div>
+		</div>
+		<div class="row-fluid visible-xs">	
+			<div  class="col-sm-offset-3 col-sm-4" style="padding-bottom:10px;align:center;" >
+				<a href="https://www.facebook.com/swarchakra" target="_blank"><img src="img/facebook.png"></a>
+				&nbsp;
+				<a href="https://en.wikipedia.org/wiki/Swarachakra"><img src="img/wikipedia.png"></a>
+				&nbsp;
+				<a href="https://www.youtube.com/user/swarachakra" target="_blank"><img src="img/youtube.png"></a>
+			</div>
+		</div>
+
+</footer>		
+</div>
+
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
+
